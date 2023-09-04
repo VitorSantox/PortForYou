@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+/*desce o menu-->*/
+header{
+    padding: 20px 0;
+    background: #604878
+}
+
+.logo-image{ 
+    width: 100px; /* Defina a largura desejada da imagem */
+    height: 100px; /* Defina a altura desejada da imagem */
+    border-radius: 50%; /* Define um raio igual a metade da largura/altura para criar um círculo */
+    
+}
+
+.logo{
+    width: 40%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/*body{
+    background: #483078;
+}
+*/
+main{
+    background: #906090;
+}
+.center-text {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-bottom: 50px; /* Adiciona espaçamento entre os parágrafos */
+
+}
